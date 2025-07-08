@@ -2,6 +2,8 @@
 
 A clean and effective to-do list application to help you stay organized throughout your day. This app runs entirely in the browser and uses **localStorage** to save your tasks — no backend, no sign-in, just quick productivity.
 
+🔗 **Live Demo**: [Click here to try it out!](https://surajbruh.github.io/2DO-List-website/)
+
 ## ✨ Features
 
 - ✅ Add new daily tasks
