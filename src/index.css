@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+}
+
+:root {
+  --primary-color: #312f2c;
+  --secondary-color: #abd1c6;
+  --tertiary-color: #70706f;
+  --quaternary-color: #95bbb0;
+  --quinary-color: #000000;
+  --senary-color: #000000;
+  --septenary-color: #000000;
+}
+
+.taskSection>ul {
+  box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.18) inset;
+  -webkit-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.18) inset;
+  -moz-box-shadow: 0px 0px 12px -3px rgba(0, 0, 0, 0.18) inset;
+}
+
+.taskSection>ul::-webkit-scrollbar {
+  display: none;
+}
+
+
+.main {
+  box-shadow: 0px 1px 19px -1px rgba(255, 255, 255, 0.29);
+  -webkit-box-shadow: 0px 1px 19px -1px rgba(255, 255, 255, 0.29);
+  -moz-box-shadow: 0px 1px 19px -1px rgba(255, 255, 255, 0.29);
+}
