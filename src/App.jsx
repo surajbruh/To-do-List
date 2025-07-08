@@ -50,7 +50,7 @@ const App = () => {
               placeholder="Enter your task"
               className="outline-none w-full text-white px-4 text-xl placeholder:text-white"
             />
-            <div onClick={handleSubmit} type="submit" className=" border bg-[var(--secondary-color)] ml-auto rounded-[50%] w-[48px]">
+            <div onClick={handleSubmit} type="submit" className=" border bg-[var(--secondary-color)] ml-auto rounded-[50%] w-[48px] hover:bg-[var(--quinary-color)]">
               <img className="w-full h-full object-center object-cover" src="/svg/add_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt="" />
             </div>
           </div>
