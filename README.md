@@ -12,4 +12,4 @@ A clean and effective to-do list application to help you stay organized througho
 
 ## 📸 Preview
 
-![App Screenshot](public\screenshot\image.png)
+![App Screenshot](public/screenshot/image.png)
